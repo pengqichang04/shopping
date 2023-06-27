@@ -1,0 +1,39 @@
+.w {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.span3 {
+    margin-left: 65px;
+    color: #ededed;
+}
+
+.foot-li {
+    float: left;
+}
+
+.li-a {
+    font-size: 14px;
+}
+
+.span4 {
+    margin: 0px 16px;
+}
+
+.foot-1 {
+    float: left;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-left: 150px;
+}
+
+.foot-2 {
+    float: left;
+    margin-top: 9px;
+    font-size: 14px;
+    margin-left: 417px;
+}
+
+.foot-ul {
+    margin-top: 15px;
+}
