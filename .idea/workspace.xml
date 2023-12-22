@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdfd8b1e-6d01-4958-aade-4f75c6424ede" name="Changes" comment="P">
+      <change afterPath="$PROJECT_DIR$/css/enrolled.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enrolled.html" beforeDir="false" afterPath="$PROJECT_DIR$/enrolled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pengqichang04&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1dce24fa-b63f-4e19-8e45-b37d97a26645" />
+        <option name="url" value="https://github.com/pengqichang04/shopping.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2XfkAN4kJ5CIy05vVQQeby6aBUS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/WebstormProjects/shopping/image/index&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WebstormProjects\shopping\image\index" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdfd8b1e-6d01-4958-aade-4f75c6424ede" name="Changes" comment="" />
+      <created>1699027376343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699027376343</updated>
+      <workItem from="1699027377390" duration="7000" />
+      <workItem from="1699106227485" duration="5000" />
+      <workItem from="1699230396578" duration="945000" />
+      <workItem from="1699233622976" duration="546000" />
+      <workItem from="1699235446684" duration="9000" />
+      <workItem from="1699526317944" duration="4914000" />
+      <workItem from="1699614558731" duration="3446000" />
+      <workItem from="1699835439437" duration="1600000" />
+      <workItem from="1700218243695" duration="21000" />
+      <workItem from="1700699749899" duration="97000" />
+      <workItem from="1701911398008" duration="416000" />
+      <workItem from="1701911896810" duration="345000" />
+      <workItem from="1701912254444" duration="642000" />
+      <workItem from="1702551342094" duration="1375000" />
+      <workItem from="1702600302125" duration="22000" />
+      <workItem from="1703032856865" duration="199000" />
+      <workItem from="1703033100865" duration="3622000" />
+      <workItem from="1703118678190" duration="3700000" />
+      <workItem from="1703155500491" duration="4693000" />
+      <workItem from="1703252348334" duration="213000" />
+      <workItem from="1703252596562" duration="383000" />
+      <workItem from="1703253168541" duration="317000" />
+      <workItem from="1703253495964" duration="59000" />
+      <workItem from="1703253579784" duration="401000" />
+    </task>
+    <task id="LOCAL-00001" summary="P">
+      <option name="closed" value="true" />
+      <created>1703253913161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703253913161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="P" />
+    <option name="LAST_COMMIT_MESSAGE" value="P" />
+  </component>
+</project>
