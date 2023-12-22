@@ -1,148 +1,712 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/comm.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>主页</title>
+    <title>Title</title>
     <style>
         .head {
             height: 31px;
-            background: #f1f1f1;
+            line-height: 31px;
+            font-size: 12px;
         }
-        
-        .head-title {
+
+        .head p {
+            float: left;
+        }
+
+        .head ul {
+            float: right;
+        }
+
+        .head li {
+            float: left;
+        }
+
+        .head span {
+            margin: 0 15px;
+        }
+
+        .dao {
+            height: 55px;
+            margin-top: 27px;
+        }
+
+        .logo {
+            width: 180px;
+            float: left;
+            height: 55px;
+            background: url("image/index/logo.png") no-repeat;
+        }
+
+        .dao-sou {
+            width: 790px;
+            height: 55px;
+            float: right;
+        }
+
+        .dao-sou input {
+            height: 35px;
+            width: 460px;
+            border: 2px solid #b1191a;
+            font-size: 16px;
+            padding-left: 10px;
+
+        }
+
+        .shou {
+            height: 35px;
+            width: 82px;
+            background: #b1191a;
+            margin-left: -6px;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .dao-sou li {
+            float: left;
+            margin-left: 25px;
+            font-size: 12px;
+        }
+
+        .shop {
+            float: right;
+            width: 147px;
+            height: 37px;
+            margin-left: 115px;
+            margin-top: -35px;
+        }
+
+        .shop button {
+            width: 147px;
+            height: 37px;
+            background: #e0dedf;
+        }
+
+        .shop img {
+            margin-top: -5px;
+        }
+
+        .title {
+            height: 47px;
+            border-bottom: 3px solid #b1191a;
+            margin-top: 25px;
+        }
+
+        .title-lo {
+            float: left;
+            height: 47px;
+            width: 210px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 47px;
+            background: #b1191a;
+        }
+
+        .title-lo a {
+            color: #fff;
+        }
+
+        .title ul {
+            float: left;
+            font-size: 16px;
+            margin-left: 10px;
+            line-height: 47px;
+        }
+
+        .title-li {
+            float: left;
+            margin-left: 50px;
+        }
+
+        .left {
+            float: left;
+            height: 358px;
+            width: 68px;
+            margin-left: 150px;
+            margin-top: 160px;
+        }
+
+        .left li {
+            height: 32px;
+            border-bottom: 1px solid #ededed;
+            text-align: center;
+            line-height: 32px;
+        }
+
+        .banner {
+            height: 464px;
+
+        }
+
+        .banner-a {
+            color: #fff;
+        }
+
+        .banner ul {
+            float: left;
+        }
+
+        .banner-li {
+            font-size: 14px;
+            line-height: 31px;
+            padding-left: 5px;
+            height: 31px;
+            width: 210px;
+            background: #b1191a;
+        }
+
+        .banner span {
+            float: right;
+            padding-right: 10px;
+        }
+
+        .banner-li:hover {
+            background: #f7f7f7;
+        }
+
+        .banner-a:hover {
+            color: #b1191a;
+        }
+
+        .banner-left {
+            height: 465px;
+            width: 990px;
+            float: left;
+        }
+
+        .banner-left-img {
+            float: left;
+            margin-left: 5px;
+            margin-top: 9px;
+            height: 455px;
+            width: 720px;
+            background: url("image/index/banner1.png") no-repeat;
+        }
+
+        .banner-left-t {
+            margin-top: 10px;
+            float: left;
+            height: 454px;
+            width: 251px;
+            margin-left: 10px;
+        }
+
+        .banner-left-t-p {
+            line-height: 33px;
+            border: 1px solid #e8e8e7;
+            border-bottom: 1px dashed #e8e8e7;
+            font-size: 15px;
+            height: 33px;
+            padding-left: 10px;
+        }
+
+        .banner-left-li {
+            padding-left: 10px;
             line-height: 31px;
             height: 31px;
         }
-        
-        .title-left {
-            font-size: 15px;
+
+        .banner-left-t-a:hover {
+            color: #666;
+        }
+
+        .banner-left-li a {
+            font-size: 13px;
+
+        }
+
+        .banner-left-li a:hover {
+            color: #666;
+        }
+
+        .banner-left-t-ul {
+            border: 1px solid #e8e8e7;
+            border-top: none;
+            width: 251px;
+        }
+
+        .banner-left-t-bottom {
             float: left;
+            border: 1px solid #e8e8e7;
+            width: 250px;
+            height: 181px;
         }
-        
-        .title-a:hover {
-            color: #c81623;
+
+        .banner-left-t-bottom-ul {
+            width: 250px;
+            height: 181px;
+
         }
-        
-        .title-right {
-            float: right;
-        }
-        
-        .title-li {
+
+        .banner-left-t-bottom-li {
+            width: 62px;
+            height: 60px;
+            border: 1px solid #e8e8e7;
             float: left;
+
         }
-        
-        .logo {
-            height: 106px;
-            line-height: 106px;
+
+        .banner-left-t-bottom-li-img {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/Bill.png");
+            margin: 4px auto;
         }
-        
-        .input-1 {
-            width: 456px;
-            height: 34px;
-            float: left;
-            border: 3px solid #b1191a;
+
+        .banner-left-t-bottom-li-img1 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/aircraft.png");
+            margin: 4px auto;
         }
-        
-        .left {
-            float: left;
+
+        .banner-left-t-bottom-li-img2 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/movie.png");
+            margin: 4px auto;
         }
-        
-        .right {
-            width: 853px;
-            height: 34px;
-            margin-top: 27px;
-            float: right;
+
+        .banner-left-t-bottom-li-img3 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/game.png");
+            margin: 4px auto;
         }
-        
-        .input-2 {
-            background: #b1191a;
-            font-size: 20px;
-            color: #fff;
-            height: 34px;
-            width: 82px;
-            float: right;
+
+        .banner-left-t-bottom-li-img4 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/lottery.png");
+            margin: 4px auto;
         }
-        
-        .button1 {
-            float: left;
-            height: 34px;
-            width: 82px;
+
+        .banner-left-t-bottom-li-img5 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/gas.png");
+            margin: 4px auto;
         }
-        
-        .Shopping-cart {
-            border: 1px solid #dfdfdf;
-            width: 140px;
-            height: 34px;
-            float: right;
+
+        .banner-left-t-bottom-li-img6 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/Hotel.png");
+            margin: 4px auto;
         }
-        
-        .button2 {
-            width: 140px;
-            height: 34px;
-            background: #dfdfdf;
-            float: left;
+
+        .banner-left-t-bottom-li-img7 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/train.png");
+            margin: 4px auto;
         }
-        .Search{
-            float: left;
-            height: 55px ;
-            width: 538px ;
+
+        .banner-left-t-bottom-li-img8 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/Crowdfunding.png");
+            margin: 4px auto;
         }
-        
-        .img1 {
-            background: #dfdfdf;
-            margin-bottom: 5px;
+
+        .banner-left-t-bottom-li-img9 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/Financial.png");
+            margin: 4px auto;
         }
-        
-        .span5 {
+
+        .banner-left-t-bottom-li-img10 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/gift_card.png");
+            margin: 4px auto;
+        }
+
+        .banner-left-t-bottom-li-img11 {
+            height: 32px;
+            width: 32px;
+            background: url("image/index/icon/White_strips.png");
+            margin: 4px auto;
+        }
+
+        .banner-left-t-bottom-li-p {
             font-size: 12px;
-            color: #666;
+            margin-left: 18px;
+
         }
-        
-        .span6 {
-            margin-left: 13px;
-            color: #666;
+
+        .banner-left-t-bottom-li-p1 {
+            font-size: 12px;
+            margin-left: 15px;
+
         }
+
+        .banner-left-v {
+            float: left;
+            height: 74px;
+            width: 250px;
+            margin-top: 10px;
+            background: url("image/index/news.png");
+        }
+
+        .show {
+            height: 166px;
+            margin-top: 10px;
+
+        }
+
+        .show-left {
+            float: left;
+            height: 166px;
+            width: 206px;
+            background: url("image/index/show.png");
+        }
+
+        .show-right {
+            float: left;
+            width: 990px;
+            height: 166px;
+        }
+
+        .show-li {
+            border-left: 1px solid #ddd;
+            float: left;
+            width: 247px;
+            height: 166px;
+            background: #ebebeb;
+        }
+
+        .show-text {
+            float: left;
+            margin-left: 15px;
+            width: 90px;
+            padding-left: 5px;
+            margin-top: 20px;
+        }
+
+        .show-text1 {
+            color: #333;
+        }
+
+        .show-text2 {
+            padding-left: 2px;
+            color: #fff;
+            width: 70px;
+            background: #00a0e8;
+            margin: 5px 0;
+        }
+
+        .show-text3 {
+            padding-left: 2px;
+            color: #fff;
+            width: 70px;
+            background: #5fb200;
+            margin: 5px 0;
+        }
+
+        .show-text4 {
+            background: #5fb200;
+            border-radius: 30%;
+            color: #fff;
+            text-align: center;
+            width: 60px;
+            margin-top: 20px;
+        }
+
+        .show-text5 {
+            padding-left: 2px;
+            color: #fff;
+            text-align: center;
+            width: 58px;
+            background: #e2162f;
+            margin: 5px 0;
+        }
+
+        .show-text6 {
+            background: #e2162f;
+            border-radius: 30%;
+            color: #fff;
+            text-align: center;
+            width: 60px;
+            margin-top: 20px
+        }
+
+        .show-text7 {
+            padding-left: 2px;
+            color: #fff;
+            width: 58px;
+            text-align: center;
+            background: #0085fb;
+            margin: 5px 0;
+        }
+
+        .show-text8 {
+            background: #0085fb;
+            border-radius: 30%;
+            color: #fff;
+            text-align: center;
+            width: 60px;
+            margin-top: 20px
+        }
+
+        .show-img {
+            float: left;
+            height: 120px;
+            width: 82px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background: url("image/index/recommend1.png") no-repeat;
+        }
+
+        .show-img1 {
+            float: left;
+            height: 120px;
+            width: 115px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background: url("image/index/recommend2.png") no-repeat;
+        }
+
+        .show-img2 {
+            float: left;
+            height: 120px;
+            width: 115px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background: url("image/index/recommend3.png") no-repeat;
+        }  .show-img3 {
+            float: left;
+            height: 120px;
+            width: 115px;
+            margin-top: 20px;
+            margin-left: 10px;
+            background: url("image/index/recommend4.png") no-repeat;
+        }
+
+
     </style>
 </head>
-
 <body>
-    <div class="head ">
-        <div class="head-title w">
-            <div class="title-left">品优购欢迎您！ 请<a href="register.html" class="title-a">登录&nbsp&nbsp</a> 免费<a href="enrolled.html" class="title-a">注册</a> </div>
-            <div class="title-right">
-                <ul class="title-ul">
-                    <li class="title-li"><a href="#" class="li-a">我的订单 </a> <span class="span4">|</span></li>
-                    <li class="title-li"><a href="#" class="li-a">我的品优购 </a><span class="span4">|</span></li>
-                    <li class="title-li"><a href="#" class="li-a">品优购会员 </a><span class="span4">|</span></li>
-                    <li class="title-li"><a href="#" class="li-a">企业采购   </a><span class="span4">|</span></li>
-                    <li class="title-li"><a href="#" class="li-a">关注品优购 </a><span class="span4">|</span></li>
-                    <li class="title-li"><a href="#" class="li-a">客户服务 </a><span class="span4">|</span></li>
-                    <li class="title-li"><a href="#" class="li-a">网站导航 </a><span class="span4">|</span></li>
+<div style="background:#f1f1f1;">
+    <div class="head w">
+        <p>品优购欢迎您!&nbsp;&nbsp;&nbsp;请<a href="register.html">登录</a>&nbsp;&nbsp;&nbsp;免费<a
+                href="enrolled.html">注册</a></p>
+        <ul>
+            <li class="head-li"><a href="#">我的订单</a><span>|</span></li>
+            <li class="head-li"><a href="#">我的品优购 </a><span>|</span></li>
+            <li class="head-li"><a href="#">品优购会员</a><span>|</span></li>
+            <li class="head-li"><a href="#">企业采购</a><span>|</span></li>
+            <li class="head-li"><a href="#">关注品优购</a><span>|</span></li>
+            <li class="head-li"><a href="#">客户服务</a><span>|</span></li>
+            <li class="head-li"><a href="#">网站导航</a><span>|</span></li>
+
+        </ul>
+
+    </div>
+
+</div>
+<div class="w dao">
+    <div class="logo"></div>
+    <div class="dao-sou">
+        <label>
+            <input type="text" placeholder="语言开发">
+        </label>
+        <button class="shou">搜索</button>
+        <ul>
+            <li><a href="#">优惠购首发</a></li>
+            <li><a href="#">亿元优惠</a></li>
+            <li><a href="#">9.9元团购</a></li>
+            <li><a href="#">美满99减30</a></li>
+            <li><a href="#">办公用品</a></li>
+            <li><a href="#">电脑</a></li>
+            <li><a href="#">通信</a></li>
+        </ul>
+        <div class="shop">
+            <button><img src="image/index/shop.jpg" alt="">我的购物车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</button>
+        </div>
+    </div>
+
+
+</div>
+<div class="title">
+    <div class=" w">
+        <div class="title-lo"><a href="#">全部商品分类</a></div>
+        <ul>
+            <li class="title-li"><a href="#"> 服装城</a></li>
+            <li class="title-li"><a href="#">美妆馆</a></li>
+            <li class="title-li"><a href="#">传智超市</a></li>
+            <li class="title-li"><a href="#">全球购</a></li>
+            <li class="title-li"><a href="#">闪购</a></li>
+            <li class="title-li"><a href="#">团购</a></li>
+            <li class="title-li"><a href="#">拍卖</a></li>
+            <li class="title-li"><a href="#">有趣</a></li>
+
+        </ul>
+    </div>
+</div>
+<div class="left">
+    <ul>
+        <li><a href="#">家用电器</a></li>
+        <li><a href="#">收集通讯</a></li>
+        <li><a href="#">电脑办公</a></li>
+        <li><a href="#">家居家具</a></li>
+        <li><a href="#">生活用品</a></li>
+        <li><a href="#">运动户外</a></li>
+        <li><a href="#">汽车用品</a></li>
+        <li><a href="#">食品酒类</a></li>
+        <li><a href="#">医药保健</a></li>
+        <li><a href="#">图书音像</a></li>
+        <li><a href="#">金融彩票</a></li>
+    </ul>
+
+
+</div>
+<div class="banner w">
+    <ul>
+        <li class="banner-li"><a href="#" class="banner-a">家用电器<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">手机、数码、通信<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">电脑、办公<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">家居、家具、家装、厨具<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">男装、女装、童装、内衣<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">个户化妆、清洁用品、宠物<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">鞋靴、箱包、珠宝、奢侈品<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">运动户外、钟表<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">汽车、汽车用品<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">母婴、玩具乐器<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">食品、酒类、生鲜、特产<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">医药保健<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">图书、音像、电子书<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">彩票、旅行、充值、票务<span>&gt;</span></a></li>
+        <li class="banner-li"><a href="#" class="banner-a">理财、众筹、白条、保险<span>&gt;</span></a></li>
+    </ul>
+
+    <div class="banner-left">
+        <div class="banner-left-img"></div>
+        <div class="banner-left-t">
+            <p class="banner-left-t-p">品优购快报<span><a href="#" class="banner-left-t-a">更多&gt;</a></span></p>
+            <ul class="banner-left-t-ul">
+                <li class="banner-left-li"><a href="#"><b>[特惠]</b>&nbsp;&nbsp;备战开学季全民半价购数码</a></li>
+                <li class="banner-left-li"><a href="#"><b>[公告]</b>&nbsp;&nbsp;品优稳占家电网购家电六成份额</a></li>
+                <li class="banner-left-li"><a href="#"><b>[特惠]</b>&nbsp;&nbsp;百元中秋全品类礼券限量领</a></li>
+                <li class="banner-left-li"><a href="#"><b>[特惠]</b>&nbsp;&nbsp;上品优生鲜 享阳澄湖大闸蟹</a></li>
+                <li class="banner-left-li"><a href="#"><b>[特惠]</b>&nbsp;&nbsp;每日享折扣品优品质游</a></li>
+            </ul>
+            <div class="banner-left-t-bottom">
+                <ul class="banner-left-t-bottom-ul">
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img"></div>
+                        <p class="banner-left-t-bottom-li-p">话费</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img1"></div>
+                        <p class="banner-left-t-bottom-li-p">机票</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img2"></div>
+                        <p class="banner-left-t-bottom-li-p1">电影票</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img3"></div>
+                        <p class="banner-left-t-bottom-li-p">游戏</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img4"></div>
+                        <p class="banner-left-t-bottom-li-p">彩票</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img5"></div>
+                        <p class="banner-left-t-bottom-li-p1">加油卡</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img6"></div>
+                        <p class="banner-left-t-bottom-li-p">酒店</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img7"></div>
+                        <p class="banner-left-t-bottom-li-p1">火车票</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img8"></div>
+                        <p class="banner-left-t-bottom-li-p">众筹</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img9"></div>
+                        <p class="banner-left-t-bottom-li-p">理财</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img10"></div>
+                        <p class="banner-left-t-bottom-li-p1">礼品卡</p>
+                    </li>
+                    <li class="banner-left-t-bottom-li">
+                        <div class="banner-left-t-bottom-li-img11"></div>
+                        <p class="banner-left-t-bottom-li-p">白条</p>
+                    </li>
+
+
                 </ul>
+
+
             </div>
+            <div class="banner-left-v"></div>
 
         </div>
+
     </div>
-    <div class="logo w">
-        <div class="left"><img src="image/index/logo.png" alt="" srcset=""></div>
-        <div class="right">
-            <div class="Search"><input type="text" name="Search" class="input-1" placeholder="语言开发">
-                <div class="button1"><button class="input-2">搜索</button></div>
-                <ul class="title-ul">
-                    <li class="title-li"><a href="#" class="li-a">我的订单 </a> <span class="span4">|</span></li>
-                    <li class="title-li"><a href="#" class="li-a">我的品优购 </a><span class="span4">|</span></li>
-                    <li class="title-li"><a href="#" class="li-a">品优购会员 </a><span class="span4">|</span></li>
-                    <li class="title-li"><a href="#" class="li-a">企业采购   </a><span class="span4">|</span></li>
-                    </ul>
-            </div>
-            <div class="Shopping-cart"><button class="button2"><img src="image/index/shop.jpg" alt="" srcset="" class="img1"><span class="span5">我的购物车</span><span class="span6 ">&gt;</span></button></div>
-        </div>
+
+
+</div>
+<div class="show w">
+    <div class="show-left"></div>
+    <div class="show-right">
+        <ul>
+            <li class="show-li">
+                <div class="show-text">
+                    <h3 class="show-text1"><b>优质好物</b></h3>
+                    <p class="show-text2">满300减100</p>
+                    <p>满500减200</p>
+                </div>
+                <div class="show-img"></div>
+            </li>
+            <li class="show-li">
+                <div class="show-text">
+                    <h3 class="show-text1"><b>平牌尾货</b></h3>
+                    <p class="show-text3">满300减100</p>
+                    <p>团购低至9.9</p>
+                    <div class="show-text4">团购</div>
+                </div>
+                <div class="show-img1"></div>
+            </li>
+            <li class="show-li">
+                <div class="show-text">
+                    <h3 class="show-text1"><b>时尚穿搭</b></h3>
+                    <p class="show-text5">低至3.6折</p>
+                    <p>暑期出游季</p>
+                    <div class="show-text6">闪购</div>
+                </div>
+                <div class="show-img2"></div>
+            </li>
+            <li class="show-li">
+                <div class="show-text">
+                    <h3 class="show-text1"><b>0点上新</b></h3>
+                    <p class="show-text7">全厂包邮</p>
+                    <p>低至一折</p>
+                    <div class="show-text8">闪购</div>
+                </div>
+                <div class="show-img3"></div>
+            </li>
+
+
+        </ul>
+
+
     </div>
+
+
+</div>
+
+
 </body>
-
 </html>
