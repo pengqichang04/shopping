@@ -3,718 +3,9 @@
 <head>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/index.css">
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        .head {
-            height: 31px;
-            line-height: 31px;
-            font-size: 12px;
-        }
-
-        .head p {
-            float: left;
-        }
-
-        .head ul {
-            float: right;
-        }
-
-        .head li {
-            float: left;
-        }
-
-        .head span {
-            margin: 0 15px;
-        }
-
-        .dao {
-            height: 55px;
-            margin-top: 27px;
-        }
-
-        .logo {
-            width: 180px;
-            float: left;
-            height: 55px;
-            background: url("image/index/logo.png") no-repeat;
-        }
-
-        .dao-sou {
-            width: 790px;
-            height: 55px;
-            float: right;
-        }
-
-        .dao-sou input {
-            height: 35px;
-            width: 460px;
-            border: 2px solid #b1191a;
-            font-size: 16px;
-            padding-left: 10px;
-
-        }
-
-        .shou {
-            height: 35px;
-            width: 82px;
-            background: #b1191a;
-            margin-left: -6px;
-            font-size: 16px;
-            color: #fff;
-        }
-
-        .dao-sou li {
-            float: left;
-            margin-left: 25px;
-            font-size: 12px;
-        }
-
-        .shop {
-            float: right;
-            width: 147px;
-            height: 37px;
-            margin-left: 115px;
-            margin-top: -35px;
-        }
-
-        .shop button {
-            width: 147px;
-            height: 37px;
-            background: #e0dedf;
-        }
-
-        .shop img {
-            margin-top: -5px;
-        }
-
-        .title {
-            height: 47px;
-            border-bottom: 3px solid #b1191a;
-            margin-top: 25px;
-        }
-
-        .title-lo {
-            float: left;
-            height: 47px;
-            width: 210px;
-            font-size: 16px;
-            text-align: center;
-            line-height: 47px;
-            background: #b1191a;
-        }
-
-        .title-lo a {
-            color: #fff;
-        }
-
-        .title ul {
-            float: left;
-            font-size: 16px;
-            margin-left: 10px;
-            line-height: 47px;
-        }
-
-        .title-li {
-            float: left;
-            margin-left: 50px;
-        }
-
-        .left {
-            float: left;
-            height: 358px;
-            width: 68px;
-            margin-left: 150px;
-            margin-top: 160px;
-        }
-
-        .left li {
-            height: 32px;
-            border-bottom: 1px solid #ededed;
-            text-align: center;
-            line-height: 32px;
-        }
-
-        .banner {
-            height: 464px;
-
-        }
-
-        .banner-a {
-            color: #fff;
-        }
-
-        .banner ul {
-            float: left;
-        }
-
-        .banner-li {
-            font-size: 14px;
-            line-height: 31px;
-            padding-left: 5px;
-            height: 31px;
-            width: 210px;
-            background: #b1191a;
-        }
-
-        .banner span {
-            float: right;
-            padding-right: 10px;
-        }
-
-        .banner-li:hover {
-            background: #f7f7f7;
-        }
-
-        .banner-a:hover {
-            color: #b1191a;
-        }
-
-        .banner-left {
-            height: 465px;
-            width: 990px;
-            float: left;
-        }
-
-        .banner-left-img {
-            float: left;
-            margin-left: 9px;
-            margin-top: 9px;
-            height: 455px;
-            width: 720px;
-            background: url("image/index/banner1.png") no-repeat;
-        }
-
-        .banner-left-t {
-            margin-top: 10px;
-            float: left;
-            height: 454px;
-            width: 251px;
-            margin-left: 10px;
-        }
-
-        .banner-left-t-p {
-            line-height: 33px;
-            border: 1px solid #e8e8e7;
-            border-bottom: 1px dashed #e8e8e7;
-            font-size: 15px;
-            height: 33px;
-            padding-left: 10px;
-        }
-
-        .banner-left-li {
-            padding-left: 10px;
-            line-height: 31px;
-            height: 31px;
-        }
-
-        .banner-left-t-a:hover {
-            color: #666;
-        }
-
-        .banner-left-li a {
-            font-size: 13px;
-
-        }
-
-        .banner-left-li a:hover {
-            color: #666;
-        }
-
-        .banner-left-t-ul {
-            border: 1px solid #e8e8e7;
-            border-top: none;
-            width: 251px;
-        }
-
-        .banner-left-t-bottom {
-            float: left;
-            border: 1px solid #e8e8e7;
-            width: 250px;
-            height: 181px;
-        }
-
-        .banner-left-t-bottom-ul {
-            width: 250px;
-            height: 181px;
-
-        }
-
-        .banner-left-t-bottom-li {
-            width: 62px;
-            height: 60px;
-            border: 1px solid #e8e8e7;
-            float: left;
-
-        }
-
-        .banner-left-t-bottom-li-img {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/Bill.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img1 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/aircraft.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img2 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/movie.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img3 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/game.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img4 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/lottery.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img5 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/gas.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img6 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/Hotel.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img7 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/train.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img8 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/Crowdfunding.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img9 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/Financial.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img10 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/gift_card.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-img11 {
-            height: 32px;
-            width: 32px;
-            background: url("image/index/icon/White_strips.png");
-            margin: 4px auto;
-        }
-
-        .banner-left-t-bottom-li-p {
-            font-size: 12px;
-            margin-left: 18px;
-
-        }
-
-        .banner-left-t-bottom-li-p1 {
-            font-size: 12px;
-            margin-left: 15px;
-
-        }
-
-        .banner-left-v {
-            float: left;
-            height: 74px;
-            width: 250px;
-            margin-top: 10px;
-            background: url("image/index/news.png");
-        }
-
-        .show {
-            height: 166px;
-            margin-top: 10px;
-
-        }
-
-        .show-left {
-            float: left;
-            height: 166px;
-            width: 206px;
-            background: url("image/index/show.png");
-        }
-
-        .show-right {
-            float: left;
-            width: 994px;
-            height: 166px;
-            background: #ebebeb;
-        }
-
-        .show-li {
-            border-left: 1px solid #ddd;
-            float: left;
-            width: 247px;
-            height: 166px;
-
-        }
-
-        .show-text {
-            float: left;
-            margin-left: 15px;
-            width: 90px;
-            padding-left: 5px;
-            margin-top: 20px;
-        }
-
-        .show-text1 {
-            color: #333;
-        }
-
-        .show-text2 {
-            padding-left: 2px;
-            color: #fff;
-            width: 70px;
-            background: #00a0e8;
-            margin: 5px 0;
-        }
-
-        .show-text3 {
-            padding-left: 2px;
-            color: #fff;
-            width: 70px;
-            background: #5fb200;
-            margin: 5px 0;
-        }
-
-        .show-text4 {
-            background: #5fb200;
-            border-radius: 30%;
-            color: #fff;
-            text-align: center;
-            width: 60px;
-            margin-top: 20px;
-        }
-
-        .show-text5 {
-            padding-left: 2px;
-            color: #fff;
-            text-align: center;
-            width: 58px;
-            background: #e2162f;
-            margin: 5px 0;
-        }
-
-        .show-text6 {
-            background: #e2162f;
-            border-radius: 30%;
-            color: #fff;
-            text-align: center;
-            width: 60px;
-            margin-top: 20px
-        }
-
-        .show-text7 {
-            padding-left: 2px;
-            color: #fff;
-            width: 58px;
-            text-align: center;
-            background: #0085fb;
-            margin: 5px 0;
-        }
-
-        .show-text8 {
-            background: #0085fb;
-            border-radius: 30%;
-            color: #fff;
-            text-align: center;
-            width: 60px;
-            margin-top: 20px
-        }
-
-        .show-img {
-            float: left;
-            height: 120px;
-            width: 82px;
-            margin-top: 20px;
-            margin-left: 10px;
-            background: url("image/index/recommend1.png") no-repeat;
-        }
-
-        .show-img1 {
-            float: left;
-            height: 120px;
-            width: 115px;
-            margin-top: 20px;
-            margin-left: 10px;
-            background: url("image/index/recommend2.png") no-repeat;
-        }
-
-        .show-img2 {
-            float: left;
-            height: 120px;
-            width: 115px;
-            margin-top: 20px;
-            margin-left: 10px;
-            background: url("image/index/recommend3.png") no-repeat;
-        }
-
-        .show-img3 {
-            float: left;
-            height: 120px;
-            width: 115px;
-            margin-top: 20px;
-            margin-left: 10px;
-            background: url("image/index/recommend4.png") no-repeat;
-        }
-
-        .show1 {
-            margin-top: 30px;
-            height: 265px;
-        }
-
-        .show1-head {
-            height: 30px;
-
-        }
-
-        .show1-head-left {
-            font-size: 18px;
-            float: left;
-            margin-left: 10px;
-        }
-
-        .show1-head-right {
-            float: right;
-            margin-left: 10px;
-            font-size: 12px;
-            line-height: 30px;
-            margin-right: 10px;
-
-        }
-
-        .show1-head-img {
-            margin-top: 3px;
-            margin-right: 10px;
-            height: 26px;
-            width: 25px;
-            display: inline-block;
-            background: url("image/index/cg.png");
-            float: right;
-        }
-
-        .show1-li {
-            width: 199px;
-            height: 235px;
-            border-left: 1px solid #ededed;
-            float: left;
-        }
-
-        .show1-li-img {
-            background: url("image/index/alsolike1.png") no-repeat;
-            height: 140px;
-            margin: 5px auto;
-            width: 155px;
-        }
-
-        .show1-li-img1 {
-            background: url("image/index/alsolike2.png") no-repeat;
-            height: 140px;
-            margin: 5px auto;
-            width: 155px;
-        }
-
-        .show1-li-img2 {
-            background: url("image/index/alsolike3.png") no-repeat;
-            height: 140px;
-            margin: 5px auto;
-            width: 50px;
-        }
-
-        .show1-li-img3 {
-            background: url("image/index/alsolike4.png") no-repeat;
-            height: 120px;
-            margin-top: 30px;
-            margin-left: 30px;
-            width: 125px;
-        }
-
-        .show1-li-img4 {
-            background: url("image/index/alsolike5.png") no-repeat;
-            height: 140px;
-            margin: 5px auto;
-            width: 120px;
-        }
-
-        .show1-li-img5 {
-            background: url("image/index/alsolike6.png") no-repeat;
-            height: 140px;
-            margin: 5px auto;
-            width: 80px;
-        }
-
-        .show1-li-text {
-            width: 140px;
-            font-size: 12px;
-            margin: 0 auto;
-        }
-
-        .show1-li-prize {
-            width: 140px;
-            margin: 0 auto;
-            font-size: 18px;
-            color: #df3033;
-        }
-
-        .show2 {
-            height: 438px;
-            border: 1px solid red;
-        }
-
-        .show2-head {
-            height: 30px;
-            border: 1px solid red;
-        }
-
-        .show2-head-left {
-            float: left;
-            font-size: 18px;
-        }
-
-
-        .show2-div1 {
-            background: #b8bddd;
-            float: left;
-            height: 407px;
-            width: 399px;
-            border: 1px solid red;
-
-        }
-
-        .show2-div2 {
-            float: left;
-            height: 407px;
-            width: 230px;
-            border: 1px solid red;
-            background: #fff;
-
-        }
-
-        .show2-div3 {
-            float: left;
-            height: 407px;
-            width: 407px;
-            border: 1px solid red;
-
-        }
-
-        .show2-div4 {
-            float: left;
-            height: 407px;
-            width: 162px;
-            border: 1px solid red;
-
-        }
-
-        .show2-p {
-            float: left;
-            margin-top: 20px;
-            margin-left: 20px;
-            width: 112px;
-            display: inline-block;
-            font-size: 16px;
-            color: #3b468d;
-        }
-
-        .show2-p1 {
-            display: inline-block;
-            width: 112px;
-            font-size: 14px;
-            color: #3b468d;
-        }
-
-        .show2-img {
-            margin-top: 105px;
-            margin-left: 155px;
-            width: 240px;
-            height: 262px;
-            background: url("image/index/interesting1.png") no-repeat;
-        }
-
-        .show2-div2-head {
-            height: 41px;
-            width: 200px;
-            font-size: 15px;
-            text-align: center;
-            line-height: 41px;
-            margin: 0 auto;
-            border-bottom: 2px dashed #ededed;
-        }
-
-        .show2-div2-p {
-            font-size: 13px;
-            margin-top: 10px;
-        }
-        .show2-div2-img {
-            margin-top: 20px;
-            height: 166px;
-            margin-left: 95px;
-            width: 135px;
-            background: url("image/index/interesting2.png") no-repeat;
-        }
-
-        .show2-div2-text {
-            margin-left: 10px;
-            margin-top: 80px;
-            float: left;
-            width: 106px;
-        }
-        .red{
-            color: red;
-        }
-
-        .show2-div2-bottom {
-            width: 230px;
-            height: 179px;
-            border-top: 1px solid #ededed ;
-        }
-        .show2-div2-bottom-text{
-            margin-left: 10px;
-            margin-top: 40px;
-            float: left;
-        }
-        .show2-div2-bottom-img{
-            height: 147px ;
-            width: 125px ;
-            background: url("image/index/interesting3.png") no-repeat;
-            margin-left: 105px;
-            margin-top: 31px;
-        }
-        .show2-div2-bottom-p{
-            margin-top: 10px;
-        }
-    </style>
 </head>
 <body>
 <div style="background:#f1f1f1;">
@@ -984,25 +275,77 @@
         <div class="show2-img"></div>
     </div>
     <div class="show2-div2">
-        <div class="show2-div2-head">好东西</div>
+        <h3 class="show2-div2-head">好东西</h3>
         <div class="show2-div2-text">
             <h3>达人推荐</h3>
             <p class="show2-div2-p">雷神金属机械键盘<br><span class="red">与你相见恨晚</span></p>
         </div>
         <div class="show2-div2-img"></div>
         <div class="show2-div2-bottom">
-
             <div class="show2-div2-bottom-text">
                 <h3>发现好物</h3>
                 <p class="show2-div2-bottom-p">一不小心霸气外露<br><span class="red">等你来</span></p>
-
             </div>
             <div class="show2-div2-bottom-img"></div>
         </div>
+    </div>
+    <div class="show2-div3">
+
+        <h3 class="show2-div3-head">品牌街</h3>
+        <div class="show2-div3-top">
+            <div class="show2-div3-text">
+                <h2 class="show2-div3-text-h2">苏泊尔</h2>
+                <p class="show2-div3-text-p">返场大秀场<br><span class="red">爆品直降100元</span></p>
+            </div>
+            <div class="show2-div3-top-img"></div>
+
+
+        </div>
+        <div class="show2-div3-bottom">
+            <div class="show2-div3-bottom-left">
+                <div class="show2-div3-bottom-left-text">
+                    <h2>国际大牌</h2>
+                    <p class="show2-div3-bottom-left-p1 ">adidas</p>
+                    <p class="show2-div3-bottom-left-p2 red">部分3免1</p>
+                </div>
+                <div class="show2-div3-bottom-left-img"></div>
+
+            </div>
+            <div class="show2-div3-bottom-right">
+                <div class="show2-div3-bottom-left-text">
+                    <h2>本周特卖</h2>
+                    <p class="show2-div3-bottom-left-p1 ">大牌折扣</p>
+                    <p class="show2-div3-bottom-left-p2 red">每周上新</p>
+                </div>
+                <div class="show2-div3-bottom-right-img"></div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="show2-div4">
+        <ul>
+            <li class="show2-div4-img1"></li>
+            <li class="show2-div4-img2"></li>
+            <li class="show2-div4-img3"></li>
+            <li class="show2-div4-img4"></li>
+            <li class="show2-div4-img5"></li>
+            <li class="show2-div4-img6"></li>
+            <li class="show2-div4-img7"></li>
+            <li class="show2-div4-img8"></li>
+            <li class="show2-div4-img9"></li>
+            <li class="show2-div4-img10"></li>
+            <li class="show2-div4-img11"></li>
+            <li class="show2-div4-img12"></li>
+            <li class="show2-div4-img13"></li>
+            <li class="show2-div4-img14"></li>
+
+
+        </ul>
+
+
 
     </div>
-    <div class="show2-div3"></div>
-    <div class="show2-div4"></div>
 
 
 </div>

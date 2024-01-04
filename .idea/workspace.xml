@@ -5,8 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdfd8b1e-6d01-4958-aade-4f75c6424ede" name="Changes" comment="P">
-      <change afterPath="$PROJECT_DIR$/image/index/cg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/360.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/360.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/anword.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/anword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/beats.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/beats.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/blueair.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/blueair.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/changhong.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/changhong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/chinamoblie.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/chinamoblie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/chinaunicom.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/chinaunicom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/dell.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/dell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/flyco.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/flyco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/gopro.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/gopro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/gree.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/gree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/hasee.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/hasee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/hisense.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/hisense.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/honor.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/honor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/hp.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/hp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/huawei.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/huawei.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/intel.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/intel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/iphone2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/iphone2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/meizu.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/meizu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/mi.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/mi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/midea.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/midea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/oppo.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/oppo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/philips.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/philips.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/samsung.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/samsung.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/samsung2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/samsung2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/siemens.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/siemens.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/tcl.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/tcl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/thinkpad.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/thinkpad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/index/trademark_logo/tplink.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/index/trademark_logo/tplink.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +134,10 @@
       <workItem from="1703464185695" duration="2123000" />
       <workItem from="1703490901421" duration="1554000" />
       <workItem from="1703662979252" duration="2873000" />
+      <workItem from="1703760761718" duration="2148000" />
+      <workItem from="1704248736395" duration="5191000" />
+      <workItem from="1704267329626" duration="2943000" />
+      <workItem from="1704271195900" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="P">
       <option name="closed" value="true" />
@@ -121,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703254119788</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="P">
+      <option name="closed" value="true" />
+      <created>1703760812654</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703760812654</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
